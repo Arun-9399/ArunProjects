@@ -1,1 +1,1 @@
-Simple baisc program 
+Simple basic program 
