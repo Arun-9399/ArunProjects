@@ -1,0 +1,40 @@
+import random
+min_value = 1
+max_value = 6
+flag = True
+while flag:
+    no = random.randint(min_value, max_value)
+    if no == 1:
+        print("-------")
+        print("|  1  |")
+        print("-------")
+    if no == 2:
+        print("-------")
+        print("|  2  |")
+        print("-------")
+    if no == 3:
+        print("-------")
+        print("|  3  |")
+        print("-------")
+    if no == 4:
+        print("-------")
+        print("|  4  |")
+        print("-------")
+    if no == 5:
+        print("-------")
+        print("|  5  |")
+        print("-------")
+    if no == 6:
+        print("-------")
+        print("|  6  |")
+        print("-------")
+
+    print('press "y" or "yes" or "YES" to Roll')
+    print("press any other key to Quit")
+    next_roll = input('Want to roll the dice again? type her..=')
+
+    if next_roll.lower() == 'yes' or next_roll.lower() == 'y' or next_roll.upper() == 'YES':
+        continue
+    else:
+        print("you Quit the game")
+        break
